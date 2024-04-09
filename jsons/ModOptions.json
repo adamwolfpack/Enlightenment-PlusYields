@@ -4,36 +4,39 @@
 	"constants":{
 		"maxXPfromBarbarians":2147483647,
 		
-		"cityStrengthBase": 12,
-		"cityStrengthPerPop": 1.5,
+		"cityStrengthBase": 15,
+		"cityStrengthPerPop": 1.0,
 		"cityStrengthFromTechsMultiplier": 5.5,
-		"cityStrengthFromTechsExponent": 2.8,
-		"cityStrengthFromTechsFullMultiplier": 1.0,
-		"cityStrengthFromGarrison": 0.5,
+		"cityStrengthFromTechsExponent": 3.5,
+		"cityStrengthFromTechsFullMultiplier": 1.5,
+		"cityStrengthFromGarrison": 1.0,
 		
-		"unitSupplyPerPopulation":0.5,
+		"unitSupplyPerPopulation":0.3,
 		
-		"unitUpgradeCost":{
-			"base": 15
-		},
+		"unitUpgradeCost":{},
 		
 		"minimalCityDistance": 2,
 		"minimalCityDistanceOnDifferentContinents": 2,
 		
-		"naturalWonderCountMultiplier":1.5,
-		"naturalWonderCountAddedConstant":1.5,
+		"naturalWonderCountMultiplier":0.15,
+		"naturalWonderCountAddedConstant":12.0,
 		
-		"ancientRuinCountMultiplier":1,
+		"ancientRuinCountMultiplier":0.4,
 		
 		"maxLakeSize":20,
 		
-		"riverCountMultiplier":1,
+		"riverCountMultiplier":0.35,
 		"minRiverLength":4,
 		"maxRiverLength":512,
+
+ "religionLimitBase":0,
 		
 		"pantheonBase":20,
-		"pantheonGrowth":5
+		"pantheonGrowth":20
 	},
 	
-	"uniques": []
+	"uniques": [
+        "Can convert gold to science with sliders",
+        "Allow City States to spawn with additional units",
+        "Can trade civilization introductions for [100] Gold"]"
 }
