@@ -65,11 +65,6 @@
 		"[+15]% [Production] [in this city] <during a Golden Age> <after adopting [Goddess of Festivals]>",
 		"[+10]% [Science] [in this city] <during a Golden Age> <after adopting [Goddess of Festivals]>",
 		
-	//创始人
-		
-		
-	//信徒
-		
 		"[+2 Faith] from every [Wonder] <after adopting [Divine Revelation]>",
 		
 		"[+2 Food] from all [Faith] buildings <after adopting [Feed the World]>",
@@ -146,8 +141,6 @@
 		"[+220]% maintenance costs <during the [Star era]>",
 		"[+260]% maintenance costs <during the [Future era]>",
 		
-		"[-50]% to Flank Attack bonuses",
-		
 		"May buy [Troubadour] units for [90] [Culture] [in all cities] at an increasing price ([10]) <starting from the [Medieval era]>",
 		"May buy [Orchestra] units for [120] [Culture] [in all cities] at an increasing price ([20]) <starting from the [Industrial era]>",
 		"May buy [Rock Band] units for [150] [Culture] [in all cities] at an increasing price ([30]) <starting from the [Information era]>",
@@ -205,8 +198,8 @@
 
         "Cannot build [Settler] units <when below [-15] Happiness>",
 		
-        "[+1 Happiness] [in this city] <during a Golden Age>",
-        "[+1 Happiness] [in this city] <during We Love The King Day>",
+        "[+1 Happiness, +2 Science, +2 Gold, +2 Culture, +2 Faith, +2 Production] [in this city] <during a Golden Age>",
+        "[+1 Happiness, +2 Science, +2 Gold, +2 Culture, +2 Faith, +2 Production] [in this city] <during We Love The King Day>",
 		
 	//晋升
 		
@@ -216,8 +209,6 @@
 		"[Air] units gain the [Basic Promotion - Air] promotion",
 		
 	//伟人
-		
-		"May not generate great prophet equivalents naturally",
 		
 		"May buy [Talent] units for [200] [Culture] [in all cities] at an increasing price ([200])",
 		"May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([100])",
@@ -434,49 +425,63 @@
 		
 */
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+//----------------------------------
 		
     
         // TODO: Implement the uniques below
-        // "[+20]% [Culture] [in all cities] <during a golden age>",
-        // "[+20]% [Production] [in all cities] <during a golden age>",
+        "[+20]% [Culture] [in all cities] <during a golden age>",
+        "[+20]% [Production] [in all cities] <during a golden age>",
     
-        // "[+10]% growth [in all cities] <during We Love The King Day>",
+        "[+25]% growth [in all cities] <during We Love The King Day>",
     
         // "Nullifies All Yield <while is in resistance>",
         
-        // "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
-        // "[-25]% [Culture] [in pupetted cities]"
+        "[-25]% [Science] [in pupetted cities]",
+        "[-25]% [Culture] [in pupetted cities]",
         
-        // "[+20]% [Production] [in cities connected via railroad]"
-        // something something unit supply
+        "[+20]% [Production] [in cities connected via railroad]",
+
+
+//------------------------------------
+
+     "Enables embarkation for land units",
+     "Improves movement speed on roads",
+     "Enables Open Borders agreements",
+     "[+1] Movement <for [Embarked] units>",
+     "Enables [Embarked] units to enter ocean tiles",
+     "Roads connect tiles across rivers",
+     "Enables Research agreements",
+     "Enables Defensive Pacts",
+     "[-40]% Culture cost of natural border growth [in all cities]",
+     "[+50]% Strength for cities <with a garrison> <when attacking>",
+     "[-50]% Food consumption by specialists [in all cities]",
+     "Allied City-States will occasionally gift Great People",
+     "Science gained from research agreements [+150]%",
+     "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
+     "Allied City-States provide [Culture] equal to [25]% of what they produce for themselves",
+     "Allied City-States provide [Gold] equal to [25]% of what they produce for themselves",
+     "[+50]% Yield from every [Great Improvement]",
+     "[+150]% Great Person generation [in all cities]",
+     "New [Military] units start with [60] Experience [in all cities]",
+     "[-50]% Gold cost of acquiring tiles [in all cities]",
+     "[+4 Food, +4 Production, +4 Gold] [in all cities]",
+     "[-50]% construction time for [All] improvements",
+     "[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
+     "Quantity of strategic resources produced by the empire +[100]%",
+     "[8] Unit Supply <for [City-States]>",
+     "[+2 Production, +4 Science, +4 Culture, +6 Happiness] <for [City-States]>",
+     "[+50]% [Food] <for [City-States]>",
+     "[+50]% [Production] <for [City-States]>",
+     "[+50]% [Gold] <for [City-States]>",
+     "[+50]% [Science] <for [City-States]>",
+     "[+50]% [Culture] <for [City-States]>",
+     "[+50]% [Happiness] <for [City-States]>",
+     
+     
+
+
+
+
+
     ]
 }
