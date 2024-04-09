@@ -4,14 +4,14 @@
 	"constants":{
 		"maxXPfromBarbarians":2147483647,
 		
-		"cityStrengthBase": 10,
-		"cityStrengthPerPop": 1,
+		"cityStrengthBase": 12,
+		"cityStrengthPerPop": 1.5,
 		"cityStrengthFromTechsMultiplier": 5.5,
 		"cityStrengthFromTechsExponent": 2.8,
 		"cityStrengthFromTechsFullMultiplier": 1.0,
-		"cityStrengthFromGarrison": 0.2,
+		"cityStrengthFromGarrison": 0.5,
 		
-		"unitSupplyPerPopulation":0.8,
+		"unitSupplyPerPopulation":0.5,
 		
 		"unitUpgradeCost":{
 			"base": 15
@@ -20,15 +20,15 @@
 		"minimalCityDistance": 2,
 		"minimalCityDistanceOnDifferentContinents": 2,
 		
-		"naturalWonderCountMultiplier":0.2,
-		"naturalWonderCountAddedConstant":0.5,
+		"naturalWonderCountMultiplier":1.5,
+		"naturalWonderCountAddedConstant":1.5,
 		
-		"ancientRuinCountMultiplier":0.05,
+		"ancientRuinCountMultiplier":1,
 		
 		"maxLakeSize":20,
 		
-		"riverCountMultiplier":0.03,
-		"minRiverLength":6,
+		"riverCountMultiplier":1,
+		"minRiverLength":4,
 		"maxRiverLength":512,
 		
 		"pantheonBase":20,
