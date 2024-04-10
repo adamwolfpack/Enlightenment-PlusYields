@@ -29,7 +29,7 @@
 		
 		"[+1 Culture] from every [Plantation] <after adopting [Teach Orally]>",
 		
-		"[+4 Faith] from every [Natural Wonder] <after adopting [One with Nature]>",
+		"[+2 Science, +6 Faith] from every [Natural Wonder] <after adopting [One with Nature]>",
 		
 		"[+20]% Production when constructing [All] wonders [in this city] <before the [Medieval era]> <after adopting [Historical Monuments]>",
 		
@@ -55,15 +55,15 @@
 		"[+15]% Production when constructing [All] buildings [in this city] <before the [Medieval era]> <after adopting [God of Forging]>",
 		"[-15]% Production when constructing [All] wonders [in this city] <before the [Medieval era]> <after adopting [God of Forging]>",
 		
-		"[+1 Faith] from every [Coast] <after adopting [God of Sea]>",
-		"[+1 Faith] from every [Ocean] <after adopting [God of Sea]>",
+		"[+2 Food, +2 Gold, +2 Faith] from every [Coast] <after adopting [God of Sea]>",
+		"[+2 Food, +2 Gold, +2 Faith] from every [Ocean] <after adopting [God of Sea]>",
 		
 		"[+1 Culture] from every [Pasture] <after adopting [God of Open Sky]>",
 		
 		"[+1 Production, +1 Food] from every [Camp] <after adopting [Goddess of the Hunt]>",
 		
-		"[+15]% [Production] [in this city] <during a Golden Age> <after adopting [Goddess of Festivals]>",
-		"[+10]% [Science] [in this city] <during a Golden Age> <after adopting [Goddess of Festivals]>",
+		"[+25]% [Production] [in this city] <during a Golden Age> <after adopting [Goddess of Festivals]>",
+		"[+20]% [Science] [in this city] <during a Golden Age> <after adopting [Goddess of Festivals]>",
 		
 		"[+2 Faith] from every [Wonder] <after adopting [Divine Revelation]>",
 		
@@ -77,8 +77,8 @@
 		
 		"[+1 Happiness] from every [District - Holy Site] <after adopting [Asceticism]>",
 		
-		"[+3 Gold] from every [Workshop] <after adopting [Guruship]>",
-		"[+10]% [Production] from every [Workshop] <after adopting [Guruship]>",
+		"[+5 Gold] from every [Workshop] <after adopting [Guruship]>",
+		"[+20]% [Production] from every [Workshop] <after adopting [Guruship]>",
 		
 		"[+15]% [Faith] from every [Opera House] <after adopting [Liturgical Opera]>",
 		
@@ -88,7 +88,7 @@
 		"[+1 Production] from every [Farm] <with [4] to [6] neighboring [Farm] tiles> <after adopting [Reclamation of Wasteland]>",
 		"[+1 Production] from every [Farm] <with [6] to [6] neighboring [Farm] tiles> <after adopting [Reclamation of Wasteland]>",
 		
-		"[+10]% [Food] [in this city] <when not at war> <after adopting [Swords into Ploughshares]>",
+		"[+20]% [Food] [in this city] <when not at war> <after adopting [Swords into Ploughshares]>",
 		
 		"[+2 Science, +1 Gold] from each Trade Route <after adopting [Traveling Messenger]>",
 		
@@ -116,9 +116,9 @@
 		
 		"[+15] HP when healing <in [Friendly Land] tiles> <for [Military] units> <after adopting [Healing Light]>",
 		
-		"[+15]% Strength <in [Friendly Land] tiles> <for [Military] units> <after adopting [Defender of the Faith]>",
+		"[+25]% Strength <in [Friendly Land] tiles> <for [Military] units> <after adopting [Defender of the Faith]>",
 		
-		"[+10]% Strength <in [Enemy Land] tiles> <for [Military] units> <after adopting [Just War]>",
+		"[+20]% Strength <in [Enemy Land] tiles> <for [Military] units> <after adopting [Just War]>",
 		
 	//人口
 		
@@ -452,7 +452,7 @@
      "Roads connect tiles across rivers",
      "Enables Research agreements",
      "Enables Defensive Pacts",
-     "[-40]% Culture cost of natural border growth [in all cities]",
+     "[-50]% Culture cost of natural border growth [in all cities]",
      "[+50]% Strength for cities <with a garrison> <when attacking>",
      "[-50]% Food consumption by specialists [in all cities]",
      "Allied City-States will occasionally gift Great People",
@@ -460,16 +460,17 @@
      "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
      "Allied City-States provide [Culture] equal to [25]% of what they produce for themselves",
      "Allied City-States provide [Gold] equal to [25]% of what they produce for themselves",
-     "[+50]% Yield from every [Great Improvement]",
+     "[+100]% Yield from every [Great Improvement]",
      "[+150]% Great Person generation [in all cities]",
      "New [Military] units start with [60] Experience [in all cities]",
      "[-50]% Gold cost of acquiring tiles [in all cities]",
      "[+4 Food, +4 Production, +4 Gold] [in all cities]",
      "[-50]% construction time for [All] improvements",
      "[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
-     "Quantity of strategic resources produced by the empire +[100]%",
-     "[8] Unit Supply <for [City-States]>",
-     "[+2 Production, +4 Science, +4 Culture, +6 Happiness] <for [City-States]>",
+     "Quantity of strategic resources produced by the empire +[200]%",
+     "[4] Unit Supply <for [City-States]>",
+     "[1] Unit Supply per [3] population <for [City-States]>",
+     "[+2 Food, +2 Production, +4 Science, +4 Culture, +6 Happiness] <for [City-States]>",
      "[+50]% [Food] <for [City-States]>",
      "[+50]% [Production] <for [City-States]>",
      "[+50]% [Gold] <for [City-States]>",
@@ -477,11 +478,6 @@
      "[+50]% [Culture] <for [City-States]>",
      "[+50]% [Happiness] <for [City-States]>",
      
-     
-
-
-
-
 
     ]
 }
